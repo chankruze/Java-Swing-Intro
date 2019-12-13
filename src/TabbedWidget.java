@@ -2,6 +2,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
+
+// Docs: https://docs.oracle.com/javase/tutorial/uiswing/components/tabbedpane.html
+
 class TabbedWidget {
 
     private JFrame jFrame;

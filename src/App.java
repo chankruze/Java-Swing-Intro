@@ -1,5 +1,3 @@
-import javax.swing.*;
-
 public class App {
 
 
@@ -7,10 +5,12 @@ public class App {
         System.out.println("Hello World");
 
         LiveMatch liveMatch = new LiveMatch();
-//        BasicWidgets widgets = new BasicWidgets();
+        new ImageWidgets();
 //        widgets.initViews();
-        TabbedWidget tabbedWidget = new TabbedWidget();
-        tabbedWidget.initViews();
+
+//        TabbedWidget tabbedWidget = new TabbedWidget();
+//        tabbedWidget.initViews();
+//        new LoginLayout();
     }
 
 }
